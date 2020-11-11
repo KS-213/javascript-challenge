@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #080413;
+}
+
+.top-header {
+	position: relative;
+	background-color: #150b2d;
+	padding: 5px;
+	margin: 0;
+}
+
+.top-name {
+    padding: 10px;
+	font-size: 26px;
+	color: white;
+	text-decoration: none;
+}
+
+.top-ufo {
+    padding-right: 10px;
+	height: 1em;
+}
+
+.header {
+	position: relative;
+	padding: 20px;
+	margin: 0;
+	background: black;
+	background-image: url('ufo_main.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed position: absolute;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: cover;
+	height: 360px;
+}
+
+.center-text {
+	position: absolute;
+	top: 18%;
+	width: 95%;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;
+}
+
+.main-form {
+	position: relative;
+    min-height: 750px;
+	max-height: 1000px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-style: groove;
+	border-color: #42247b;
+	background-color: #150b2d;
+}
+
+.search-block {
+	text-align: center;
+}
+
+form {
+    margin: 25px;
+	position: relative;
+	display: inline-block;
+}
+
+label {
+	color: white;
+	max-width: 100%;
+}
+
+#search-date {
+	font-size: 16px;
+	margin-right: 25px;
+}
+
+#search-btn {
+	background-color: #42247b;
+	color: white;
+	border: 2px solid white;
+	font-size: 16px;
+	padding: 10px 16px;
+}
+
+#reset-btn {
+	background-color: #42247b;
+	color: white;
+	border: 2px solid white;
+	font-size: 16px;
+	padding: 10px 16px;
+}
+
+.data-table {
+	color: white;
+	text-align: center;
+}
+
+#ufo-table {
+	border-collapse: collapse;
+	background-color: #150b2d;
+	overflow-y: scroll;
+	min-height: 640px;
+    max-height: 890px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+    border: 1px solid #c37ee4;
+	border-style: groove;
+	text-align: center;
+}
+
+td,
+th {
+    min-width: 100px;
+    min-height: 950px;
+    border: 1.5px solid #e6baf6;
+	border-style: groove;
+	text-align: center;
+}
+
+
+#ufo-table th {
+    line-height: 50px;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#ufo-table td {
+    height: 45px;
+}
+
+#ufo-table tr td:first-child {
+	font-weight: bold;
+	background: #66426e;
+}
+
+#ufo-table tr td:nth-child(2) {
+    text-transform: capitalize;
+}
+
+#ufo-table tr td:nth-child(3),
+#ufo-table tr td:nth-child(4) {
+    text-transform: uppercase;
+}
